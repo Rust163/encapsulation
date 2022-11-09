@@ -3,7 +3,6 @@ public class Human {
     private String town;
     private int yearOfBirth;
     private String jobTitle;
-
     public Human(String name, String town, int yearOfBirth, String jobTitle) {
         if (name.length() != 0 && !name.isEmpty() && !name.isBlank()) {
             this.name = name;
